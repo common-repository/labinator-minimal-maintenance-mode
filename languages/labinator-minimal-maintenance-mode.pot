@@ -1,0 +1,176 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Labinator Minimal Maintenance Mode\n"
+"POT-Creation-Date: 2024-07-18 19:52+0800\n"
+"PO-Revision-Date: 2024-07-18 19:52+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lmm.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/class-lmm-module.php:155
+msgid "Options saved!"
+msgstr ""
+
+#: inc/class-lmm-module.php:161
+msgid "Error saving configuration to database."
+msgstr ""
+
+#: inc/class-lmm-module.php:167
+msgid "No changes were needed."
+msgstr ""
+
+#: inc/class-lmm-module.php:221
+msgid "This function needs direct access to the filesystem."
+msgstr ""
+
+#: inc/class-lmm-module.php:227
+msgid "There was a problem accessing the filesystem. Check your permissions."
+msgstr ""
+
+#: inc/maintenance/admin-bar.php:36
+msgid "Coming Soon"
+msgstr ""
+
+#: inc/maintenance/admin-bar.php:59
+msgid "Maintenance"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/maintenance/admin-content.php:15
+msgid "Labinator Minimal Maintenance Mode"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:19
+msgid "All your WordPress needs in one package! 📦 Learn more →"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:31
+msgid "Set site status"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:36
+msgid "<strong>Online</strong> — WordPress works as usual"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:42
+msgid ""
+"<strong>Coming soon</strong> — Site closed. All pages have a meta robots "
+"noindex, nofollow"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:47
+msgid ""
+"<strong>Maintenance</strong> — Site closed. All pages return 503 Service "
+"unavailable"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:52
+msgid "Magic Link"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:56 inc/maintenance/admin-content.php:118
+msgid "copy to clipboard"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:57
+msgid "change secret token"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:58
+msgid ""
+"You can use this link to grant anyone access to the website when it is in "
+"maintenance mode."
+msgstr ""
+
+#: inc/maintenance/admin-content.php:63
+msgid "Choose a page for the content"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:66
+msgid "Use default content"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:78
+msgid "Preview"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:116
+msgid "copied to clipboard!"
+msgstr ""
+
+#: inc/maintenance/admin-content.php:124
+msgid ""
+"Are you sure you want to change the secret token?\\nThis will invalidate "
+"previously-shared links."
+msgstr ""
+
+#: inc/maintenance/class-lmm-maintenance-module.php:29
+#: inc/maintenance/class-lmm-maintenance-module.php:30
+msgid "Maintenance Mode"
+msgstr ""
+
+#: inc/maintenance/class-lmm-maintenance-module.php:31
+msgid ""
+"Customizable maintenance page to close your site during updates or "
+"development. It has a \"magic link\" to grant temporary access."
+msgstr ""
+
+#: inc/maintenance/class-lmm-maintenance-module.php:125
+msgid "Content page id is not a valid page id"
+msgstr ""
+
+#: inc/maintenance/class-lmm-maintenance-page.php:101
+msgid " - Coming Soon"
+msgstr ""
+
+#: inc/maintenance/class-lmm-maintenance-page.php:102
+msgid ""
+"<h1>Coming Soon / Under Construction</h1><h2>This website is currently being "
+"developed.</h2>"
+msgstr ""
+
+#: inc/maintenance/class-lmm-maintenance-page.php:108
+msgid " - Under Maintenance"
+msgstr ""
+
+#: inc/maintenance/class-lmm-maintenance-page.php:109
+msgid ""
+"<h1>Under Maintenance / Temporary Unavailable</h1><h2>This website is "
+"currently under maintenance.</h2>"
+msgstr ""
+
+#. translators: %s: url of plugin settings page
+#: lmm-admin.php:42
+#, php-format
+msgid "<a href=\"%s\">Settings</a>"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://labinator.com/wordpress-marketplace/plugins/maintenance-mode/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Activates a maintenance mode or coming soon page for your website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Labinator"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://labinator.com/"
+msgstr ""

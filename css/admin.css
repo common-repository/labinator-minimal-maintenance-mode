@@ -1,0 +1,122 @@
+.lmm-wrap {
+    position: relative;
+}
+
+.lmm-wrap.about-wrap .lmm-wrap-divider {
+    height: 15px;
+}
+
+.lmm-wrap .nav-tab {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.lmm-section-wrap h1 {
+    font-size: 32px;
+}
+
+.labinator-marketplace-calltoaction {
+    display: -webkit-inline-box;
+    padding: 45px;
+    margin: 20px 0;
+    border: 1px solid #0A4CA1;
+    background-color: #ECF4FF;
+    border-radius: 5px;
+}
+
+.labinator-marketplace-calltoaction .desc {
+    font-size: 16px;
+}
+
+.labinator-marketplace-calltoaction .btn {
+    padding: 15px 25px;
+    margin: 10px;
+    background-color: #0B346E;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.labinator-marketplace-calltoaction .btn:hover {
+    background-color: #0a4384;
+}
+
+.labinator-marketplace-calltoaction a.toggle_link {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#lmm_magic_link {
+    vertical-align: -webkit-baseline-middle;
+}
+
+#wpadminbar .lmm-maintenance-active>.ab-item,
+#wpadminbar .lmm-coming-soon-active>.ab-item {
+    position: relative;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wpadminbar .lmm-maintenance-active>.ab-item:before,
+#wpadminbar .lmm-coming-soon-active>.ab-item:before {
+    content: '';
+    display: inline-block;
+    vertical-align: bottom;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    background-color: #F9BF45;
+    border-radius: 7px;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translate(0, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(0, -50%);
+    /* Safari */
+    transform: translate(0, -50%);
+}
+
+#wpadminbar .lmm-maintenance-active>.ab-item:before {
+    background-color: #AA0000;
+}
+
+#maintenance_page {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+#maintenance_page #content {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+#maintenance_page #content.default h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 0 0 10px;
+    padding: 0;
+    border-bottom: 1px solid #243468;
+}
+
+#maintenance_page #content.default h3 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    line-height: 1.7;
+    font-weight: normal;
+}
+
+@media (max-width: 480px) {
+    #maintenance_page #content.default h1 {
+        font-size: 36px;
+    }
+
+    #maintenance_page #content.default h3 {
+        font-size: 18px;
+    }
+}
